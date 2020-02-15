@@ -42,7 +42,7 @@ margin-right: auto;
 }
 .header img {
     height:400px;
-    width: 90%;
+    width: 98%;
 }
 
 .header h1{
@@ -74,7 +74,30 @@ margin-right: auto;
 
 }
 
-.gif img{
-  width: 80%;
-  border: none;
+.header {
+  font-size: 1.5em;
 }
+.work{
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.work img {
+  max-height: 600px;
+  width: 100%;
+  margin-bottom: 10px;
+  object-fit: scale-down;
+}
+
+.work .text {
+  margin: auto;
+  text-align: center;
+  line-height: 1em;
+}
+/* .gif img{
+  height:600px;
+  width:800px;
+  border: none;
+  object-fit: cover;
+} */
